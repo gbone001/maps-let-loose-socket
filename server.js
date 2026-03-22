@@ -12,6 +12,7 @@ const io = new Server(server, {
             "http://localhost:4000",
             "https://mattw.io",
             "https://maps-let-loose-socket-production.up.railway.app",
+            "https://maps-let-loose-socket-production-2917.up.railway.app",
             "https://gbone001.github.io/maps-let-loose/"
         ],
         methods: ["GET", "POST"],
