@@ -8,7 +8,12 @@ const server = http.createServer(app);
 const {Server} = require("socket.io");
 const io = new Server(server, {
     cors: {
-        origin: ["http://localhost:4000", "https://mattw.io"],
+        origin: [
+            "http://localhost:4000",
+            "https://mattw.io",
+            "https://maps-let-loose-socket-production.up.railway.app",
+            "https://gbone001.github.io/maps-let-loose/"
+        ],
         methods: ["GET", "POST"],
         allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
     }
